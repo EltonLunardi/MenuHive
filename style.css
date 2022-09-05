@@ -1,0 +1,86 @@
+html {
+    height: 100%;
+}
+body {
+    background-color: #14171d;
+}
+.menu{
+    position:absolute;
+}
+.dvHexRow {
+    clear: left;
+}
+.dvHexRow.even {
+    margin-left: 59px;
+}
+.dvHex{
+    color: #FFF;
+    text-align: center;
+    float: left;
+    margin-left: 9px;
+    margin-top: 7px;
+    cursor: pointer;
+    position: absolute;
+    z-index: 1;
+}
+.dvHexBd{
+    float: left;
+}
+.dvHexBg{
+    z-index: -1;
+    float: left;
+    margin-left: 3px;
+    margin-bottom: -31px;
+    position: relative;
+}
+.hexTopBg{
+    width: 0;
+    border-bottom: 34px solid #040914;
+    border-left: 58px solid transparent;
+    border-right: 58px solid transparent;
+}
+.hexCenterBg{
+    width: 116px;
+    height: 66px;
+    background-color: #040914;
+    transition: .8s;
+}
+.hexBottomBg{
+    width: 0;
+    border-top: 34px solid #040914;
+    border-left: 58px solid transparent;
+    border-right: 58px solid transparent;
+    transition: .8s;
+}
+.hexTop{
+    width: 0;
+    border-bottom: 30px solid #1e2530;
+    border-left: 52px solid transparent;
+    border-right: 52px solid transparent;
+    transition: .8s;
+}
+.hexCenter{
+    width: 104px;
+    height: 60px;
+    background-color: #1e2530;
+    transition: .8s;
+}
+.hexBottom{
+    width: 0;
+    border-top: 30px solid #1e2530;
+    border-left: 52px solid transparent;
+    border-right: 52px solid transparent;
+    transition: .8s;
+}
+.hexContent{
+    position: relative;
+    top: 10%;
+    font-family: "Chakra Petch";
+    font-size: 14px;
+    display: inline-grid;
+}
+.hexContent i{
+    top:0;
+    left: 50%;
+    margin-bottom: 5px;
+}
